@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+
+.section-1 {
+	display: grid;
+	grid-column: 2 / 5;
+
+}
+
+.section-2 {
+
+}
+
+aside {
+
+}
+
+article {
+	border: 1px solid black;
+}
+
+.fleche {
+	width: 100%;
+}
